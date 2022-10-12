@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: black;
+    background-color: rgb(51, 51, 51);
     color: white;
 }
 
@@ -28,10 +28,58 @@ nav ul > li{
 }
 nav ul li > .nav-item{
     color: white;
-    font-size: 2rem;
+    font-size: 1rem;
     margin: 5px;
     text-decoration: none;
     cursor: pointer;
 }
 
 
+/* ******   THE SECTION STYLING **** */
+.google{
+    height: 96vh;
+     border:2px solid green;
+     text-align: center;
+}
+.google div > img{`
+    margin: 10px;
+    padding: 20px;
+    width: 250px;
+    height: 170px;
+}
+.google input{
+    margin: 14px;
+    width: 38%;
+    height: 6vh;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(16, 14, 24);
+    color: white;
+}
+
+.google .others{
+    margin: 12px;
+}
+
+.others .tabs{
+    border: none;
+    border-radius: 2px;
+    font-size: 14px;
+    padding: 7px;
+    margin: 5px;
+    background-color: rgb(16, 14, 24);
+    color: rgb(212, 211, 211);
+}
+
+.para{
+    margin: 5px;
+}
+
+.para .lang-txt{
+    color: white;
+    font-size: 15px;
+}
+.para .lang-names{
+    color: rgb(128, 128, 245);
+    padding: 4px;
+}
